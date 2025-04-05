@@ -53,23 +53,23 @@ python main.py
    docker run --rm gpt_project
 
 
-Project Details
-Data Source:
+## Project Details
+**Data Source:**
 The project automatically downloads the Tiny Shakespeare dataset if not available locally. This dataset is preprocessed into a tensor format for efficient training.
 
-Model Architecture:
+**Model Architecture:**
 The implementation includes a GPT-style transformer model featuring:
 
-Token and positional embeddings
+**Token and positional embeddings**
 
 Multiple transformer blocks with multi-head self-attention and feed-forward networks
 
 A final layer normalization and linear layer to produce vocabulary logits
 
-Training:
+**Training:**
 The training loop periodically evaluates the model on both training and validation datasets, ensuring robust performance monitoring.
 
-Text Generation:
+**Text Generation:**
 After training, the model can generate coherent text sequences based on an initial context, demonstrating its capacity for autoregressive text generation.
 
 
