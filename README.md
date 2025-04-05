@@ -34,14 +34,15 @@ gpt_project/
    ```bash
    git clone https://github.com/yourusername/gpt_project.git
    cd gpt_project
-   python main.py
    
-## Install Dependencies:
-pip install -r requirements.txt
+2. **Install Dependencies:**
+
+   pip install -r requirements.txt
 
 
-## Run the Project:
-python main.py
+3. **Run the Project:**
+
+   python main.py
 
 ## Running with Docker
 1: **Build the Docker Image:**
